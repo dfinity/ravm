@@ -1,6 +1,6 @@
 # ravm 
 
-Web extension to perform remote attestation on an trusted execution secure virtual machine.
+Web extension for firefox to perform remote attestation of a trusted execution secure virtual machine. 
 
 ## Build
 
