@@ -38,4 +38,12 @@ Add the certificate for the server as an exception
 
 Enable permissions of the ravm web-extension
 * Preferences -> Extensions & Themes -> Extensions 
-* Select check-vm --> Permissions and enable `Access your data for all websites` 
+* Select check-vm -> Permissions and enable `Access your data for all websites` 
+
+## Test functionality 
+If the setup has been finished point the browser instance to https://transparent-vm.net:8080 . This will be noticed by the web extension and via the `Browser Console` for now the following outputs should be visible:
+
+1. Attestation report has been validated by the AMD keyserver.
+2. Expected state: cce...
+3. Comnunication terminates inside the secured VM: 3786de2c15...
+
