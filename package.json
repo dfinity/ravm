@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-	"lint": "npx eslint src",
-	"lint:fix": "npx eslint --fix src",
+    "browser": "cd ./dist && web-ext run --url https://transparent-vm.net:8080 --bc",
+    "http": "cd ./demo-site && http-server -C cert.pem  -K key.pem -S",
+    "lint": "npx eslint src",
+    "lint:fix": "npx eslint --fix src",
     "build": "webpack build"
   },
   "keywords": [],

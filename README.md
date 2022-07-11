@@ -15,6 +15,7 @@ Tested with:
 For Development 
 * http-server (https://www.npmjs.com/package/http-server)
 * web-ext (https://github.com/mozilla/web-ext)
+* html-webpack-plugin (npm install --save-dev html-webpack-plugin)
 
 ## Develop
 
@@ -27,8 +28,9 @@ To start the local development instance:
 
 ## Interactive development 
 
-* `npm run watch`
-* In `dist` execute `web-ext run`
+1. > `npm run watch` (Let webpack observe changes in the src folder.)
+2. > `npm run http` (Start demo web sever; pls be aware private key is not included.)
+3. > `npm run browser` (Start browser with jconsole; pls check configuration steps listed below.)
 
 ## Configure the firefox instance
 
